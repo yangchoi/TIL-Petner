@@ -38,3 +38,11 @@ cat id_rsa.pub
 ```bash
 bin/development-server-ip-change.sh
 ```
+
+
+### 로그 보기
+로그값을 분석할 줄 알아야함
+```bash
+tail -f log/development.log 
+```
+
