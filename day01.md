@@ -1,4 +1,4 @@
-## 개발환경 
+## 개발환경 (웹)
 
 ### DB 동기화 (임의로 만든 명령어)
 ```bash
@@ -30,3 +30,11 @@ cd .ssh
 cat id_rsa.pub  
 ```
 > cat : 파일 내용 출력 
+
+## 개발환경 (모바일)
+
+### 로컬 서버 실행
+실제 url을 테스트 서버로 바꿔줌
+```bash
+bin/development-server-ip-change.sh
+```
