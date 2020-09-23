@@ -24,5 +24,5 @@ git reflog로 삭제된 이력까지 다 볼 수 있다.<br>
 브랜치 이동 전에 워킹 디렉토리를 정리하지 않으면 브랜치 이동을 할 수 없다. 
 <br>
 깃은 자동으로 워킹 디렉토리에 파일들을 추가, 삭제, 수정 해서 checkout 한 브랜치의 마지막 스냅샷으로 되돌려 놓는다. <br>
-git reflog, git stash, ggpush, squash, git rebase
+##### git reflog, git stash, ggpush, squash, git rebase
 #### 로그를 좀 더 살펴보고 명령어를 치자.. 
