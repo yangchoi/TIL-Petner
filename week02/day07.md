@@ -36,5 +36,19 @@ nil을 return하고 method의 arguments를 evaluate 하지 않는다.
 > 빈값을 리턴할 수 있는 메서드에 쉽게 체이닝할 수 있다.
 
 
+### rendering
+```ruby
+<%= render 'tasks', tasks:@tasks %>
+<% tasks.each do |task| %>
+          <% redner 'task', task: task %>
+<% end %>
+```
+rendering 한 view(.html.erb)의 파일명은 _task.html.erb 와 같은 형태로 표현하며 <br>
+파일명 앞에는 언더바 _ 를 붙이고 언더바 뒤에는 rendering해 view에 넘길 값을 적어준다. 
+```
+index.html.erb > _tasks.html.erb > _task.html.erb
+```
+의 순서대로 rendering 한다  
+
 ### 오늘 할 일
 user_ping 에서 마지막 접속 기록 정보 확인해 펫시터 구하기의 펫시터 목록에 넣기 <br>
