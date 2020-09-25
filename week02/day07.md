@@ -26,7 +26,7 @@ select * from comment where id = "00";
 select * from post; 
 select * from comment where id IN (00,00....);
 ```
-이렇게 되면 도합 6줄이었던 쿼리문이 단 두줄로 바뀌게 되는 것이다. <br>
+이렇게 되면 도합 6줄이었던 쿼리문이 단 두줄로 바뀌된다. <br>
 이는 실행 속도에 차이를 미친다고 한다. 
 
 
