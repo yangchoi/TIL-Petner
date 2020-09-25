@@ -30,6 +30,11 @@ select * from comment where id IN (00,00....);
 이는 실행 속도에 차이를 미친다고 한다. 
 
 
+### .& : Safe Navigation Operator
+receiver 가 nil 일 때 method call 을 skip 한다.
+nil을 return하고 method의 arguments를 evaluate 하지 않는다.
+> 빈값을 리턴할 수 있는 메서드에 쉽게 체이닝할 수 있다.
+
 
 ### 오늘 할 일
 user_ping 에서 마지막 접속 기록 정보 확인해 펫시터 구하기의 펫시터 목록에 넣기 <br>
