@@ -30,3 +30,19 @@ model에서 테이블을 객체로 지정해주기 이전에 위의 코드는 Us
 ```ruby 
 <% if UserPings.where(petner_id: petner.id).present? %>
 ```
+
+
+#### rails에서 새 페이지 생성 
+- staffs/journal
+
+```bash 
+rails g staffs_index journal 
+```
+
+#### rails에서 image url 다루는 방법
+
+```ruby
+include ImageLinkable
+```
+image_linkable.rb에서 각 image url들에 대한 메서드들을 만든다.<br>
+메서드들 간의 연결고리를 잘 살펴보자..
