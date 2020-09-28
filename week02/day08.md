@@ -46,3 +46,7 @@ include ImageLinkable
 ```
 image_linkable.rb에서 각 image url들에 대한 메서드들을 만든다.<br>
 메서드들 간의 연결고리를 잘 살펴보자..
+
+
+#### 오늘 한 일 
+돌봄일지 페이지 생성 
