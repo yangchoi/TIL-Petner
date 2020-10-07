@@ -44,3 +44,12 @@ l... format: :short
 <br>
 그럼 short 라는 이름으로 지정한 시간 format이 적용된다. 
 
+<br>
+
+l 은 Rails의 국제화 ( i18n) Api 로, Ruby on Rails 2.2 부터 Rails에 포함된(bundle) gem이다. <br>
+l 은 localization 을 의미한다. <br>
+로컬라이즈는 구체적인 번역방법이나 번역을 위한 포맷을 제공한다. <br>
+
+https://railsguides.jp/i18n.html
+
+
