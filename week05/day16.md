@@ -42,6 +42,35 @@ layout
 
   다른 controller < ApplicationController < ActionController::Base
 
+
+#### ex
+- BooksController
+```ruby
+class BooksController < ApplicationController
+end
+```
+- routes.rb
+```ruby
+resources :books
+```
+
+- app/views/books/index.html.erb
+```html
+<h1>book example</h1>
+```
+- 내가 /books로 갈 때 rails가 자동으로 rendering
+
+- BooksController >>>rendering>>> app/views/books/index.html.erb
+```ruby
+class BooksController < ApplicationController
+  def index
+    @books = Book.all
+  end
+end
+```
+- rails가 controller의 view 위치 안의 action_name.html.erb(여기서는 index.html.erb)템플릿을 찾고 렌더링한다 
+- 만약 view에서 모든 책의 매개변수를 보고 싶다면 ERB 템플릿에서 @books.all 로 books 를 불러온다 
+
 #### @템플릿변수
 - 컨트롤러에서 연산된 결과를 view에서 보여주기 위함 <br>
 (컨트롤러는 하나의 클래스)
