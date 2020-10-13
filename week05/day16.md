@@ -27,7 +27,7 @@ class StaffsController < ActionController::Base
 end
 ```
 
-layout
+layout <br>
   ㄴ dashboard.html.erb
   
 
