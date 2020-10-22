@@ -27,3 +27,6 @@
   
 ```
 
+다음 리뷰의 아이디인 next_review_id를 nil로 설정한 다음 <br>
+id 값이 nil이 아니고 존재한다면 next_review_id 를 리턴해주고 <br>
+만약에 없다면 그대로 nil을 보낸다. 
