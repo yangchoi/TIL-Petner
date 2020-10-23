@@ -26,6 +26,16 @@ byte > string : 디코딩
 - 예외 처리 : begin .. rescue 
 begin이 자바에서 try 같은 키워드, rescue에서 예외처리를 해준다. 
 
+### sidekiq
+ruby on rails에서는 비동기 작업 처리로 사이드킥을 주로 사용 <br>
+사이드킥은 등록된 작업을 레디스 큐에 저장해놓고 워커들에서 가져가 처리하는 방식으로 동작 <br>
+의도치 않게 실행되어선 안되는 작업이 큐나 예약 작업에 등록되는 경우가 종종 있는데 <br>
+이런 경우 사이드킥의 api를 사용해 특정 작업들만 삭제해 줄 필요가 있음 
+
+### Redis(remote dictionary server) 
+키-값 구조의 비정형 데이터를 저장하고 관리하기 위한 오픈 소스 기반의 비관계형 데이터베이스 관리 시스템 
+- redis에서 사용할 수 있는 5가지의 데이터형 : string, lists, sets, sorted sets, hashs
+
 ### 새로 알게된 부분 
 - sidekiq
 - 캐싱 
