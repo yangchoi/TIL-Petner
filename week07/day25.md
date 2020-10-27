@@ -18,3 +18,8 @@
 - 따라서 더 많은 작업을 처리하고 더 빠른 응답시간 지원 가능 
 
 (출처 : https://aws.amazon.com/ko/redis/ )
+
+
+### 이름 단수 복수 
+- Model class 명 : 단수 
+- db table 명 : 복수 
