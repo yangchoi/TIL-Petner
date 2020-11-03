@@ -8,7 +8,7 @@
   end
 ```
 
---> vote_staffs_journal_likes_url 생성됨 
+--> vote_staffs_journal_likes_url 생성됨 <br>
 --> journal_like_controller.rb 에서 vote 메서드 사용 가능 
 
 
