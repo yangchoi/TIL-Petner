@@ -86,3 +86,7 @@ https://railsguides.jp/active_record_migrations.html#reversible%E3%82%92%E4%BD%B
 
 ### 의문 
 - 왜 change column 이 아닌 reversible 을 사용할까.. 
+
+#### 읽어볼 글 (레일즈의 polymorphic association)
+https://medium.com/@Fred.it/%EB%B2%88%EC%97%AD-%EB%A0%88%EC%9D%BC%EC%A6%88%EC%9D%98-polymorphic-association-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-d13ee23695ab
+
