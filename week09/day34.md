@@ -11,6 +11,9 @@
 - welcome_controller에서 journal_likes_count가 2개 이상인 데이터를 attachment에서 가져와 id만 따로 빼내어 변수에 담음 (journal_likes_count_id)
 - 해당 변수를 기준으로 journal_like에서 where 절을 통해 journal_likes_count_id와 같은 attachment_id를 @journal_likes로 지정해서 view에서 반복문 돌림 
 
+
+### nil 처리 
+- 과거에 staffs 작업들 중 탈퇴회원에 대한 nil처리를 안해준 작업들이 많았다. (에러남)
 ___________________________________________________
 
 
