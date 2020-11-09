@@ -26,7 +26,7 @@ ___________________________________________________
 
 ____________________
 
-### add_column 대신 reversible을 사용하는 이유 
+### change_column 대신 reversible을 사용하는 이유 
 - reversible은 기존 테이블에 끼어든다는 느낌이 강하므로 기존에 있던 데이터를 그대로 사용하는 것이 가능
 - add_column은 아예 새로운 것을 생성하는 느낌
 - journal_likes_count 의 경우 reversible을 해서 journal_likes 데이터로 count를 할 필요가 있었기 때문에 reversible을 사용 
