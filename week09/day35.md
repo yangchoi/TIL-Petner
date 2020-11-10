@@ -116,3 +116,15 @@ https://www.ruby-lang.org/ko/documentation/ruby-from-other-languages/to-ruby-fro
 
 ### ActiveStorage
 - 레일즈의 aws의 클라우드 서비스 연동
+
+_______
+
+
+
+### 알아볼 것 
+- 프로젝트 주제
+https://www.producthunt.com/
+- gitlab foss
+https://gitlab.com/gitlab-org/gitlab-foss
+- lobster 
+https://github.com/lobsters/lobsters
