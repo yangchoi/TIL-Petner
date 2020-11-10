@@ -115,4 +115,4 @@ https://www.ruby-lang.org/ko/documentation/ruby-from-other-languages/to-ruby-fro
 
 
 ### ActiveStorage
-- 레일즈의 aws의 클라우드 
+- 레일즈의 aws의 클라우드 서비스 연동
