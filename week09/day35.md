@@ -100,3 +100,19 @@ class UsersController < ApplicationController
 end
 ```
 - 모델과 관련된 것은 모델 내부에서 처리하도록 하고, 컨트롤러는 가장 high-level 로직만 다루도록
+
+
+### 생성자는 클래스 이름 대신 "initialize"
+
+### 자바와 비교한 루비 (차이점)
+https://www.ruby-lang.org/ko/documentation/ruby-from-other-languages/to-ruby-from-java/
+
+
+### 메서드 액세스 
+- public : 공개
+- private : 명시적 수신 없이 메서드를 호출할 수 있음, self 만이 private 메서드 호출의 리시버로 허용됨 
+- protected : 밖에서 호출했을 때 주의해야한다는 것, 클래스나 하위 클래스 인스턴스에서 호출할 수 있고 다른 인스턴스를 리시버로 사용할 수 있음 
+
+
+### ActiveStorage
+- 레일즈의 aws의 클라우드 
