@@ -8,6 +8,9 @@
 - model 부분에서 뭔가 놓치고 있는 듯함
 - controller 에서 해결할 수 없는 이유는, journal_card 를 반복문으로 돌리기 때문에 controller 쪽에서 journal_likes와 함께 사진을 view로 보내줘야함
 - 따로 보내주면 여러장을 journal_likes 의 id에 맞게 보낼 수가 없음 (내 생각) 
+- 뭐가 문젤까? model을 더 공부하면 되는 부분인가? 
+- 아직 ruby 스타일을 잘 모르겠다 
+- rails 역시 .. 
 
 __________
 
