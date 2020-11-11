@@ -1,3 +1,17 @@
+### 오늘 한 일 
+- welcome 페이지에 journal_like 띄우기(미완)
+
+#### 안되는 부분 
+- scope로 image_attachment를 Join 해서 welcome에 뿌려줄 journal_likes 에 넣었는데, 작동이 안됨 
+- 해당 scope 입력하면 전체가 다 나오지 않음. 
+- image_attachment를 join 시켜서 attachment_id로 사진을 찾아내면 될 것 같은데 이 부분이 잘 안됨 
+- model 부분에서 뭔가 놓치고 있는 듯함
+- controller 에서 해결할 수 없는 이유는, journal_card 를 반복문으로 돌리기 때문에 controller 쪽에서 journal_likes와 함께 사진을 view로 보내줘야함
+- 따로 보내주면 여러장을 journal_likes 의 id에 맞게 보낼 수가 없음 (내 생각) 
+
+__________
+
+
 ### activestorage blob
 #### active storage 동작 원리 
 1. active storage에 이미지 파일 업로드 
