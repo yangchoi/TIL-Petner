@@ -94,3 +94,7 @@ irb > MyClass.instance_method(:log)
 irb> MyClass.new.log
 # => log by MyModule
 ```
+>> MyClass의 조상인 BaseClass의 log가 아닌 include 한 MyModule의 include가 나옴 
+
+
+#### prepend
