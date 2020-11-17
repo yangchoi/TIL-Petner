@@ -77,5 +77,13 @@
 - 즉, orm과 데이터베이스 간의 언어를 해석하고 연결을 도와주는 맵핑 
 
 
+______
+
+
+### joins 과 includes 의 차이 
+- joins로 인해 lazy loading(N+1) 문제가 발생할 경우 
+- 이런 문제를 해결하기 위해 includes 메소드를 사용한다 
+
+https://jongjineee.github.io/2019/07/18/includes_joins.html
 
 
