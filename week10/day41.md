@@ -1,3 +1,19 @@
+### 오늘 작업 
+- 예쁜 돌봄 사진 페이지에 좋아요 수에 따른 필터 추가 
+
+#### 막히는 부분
+- controller에서 active record를 이용해 view에서 사용자가 입력한 사용자 수에 따른 데이터 거르기까지는 성공
+- activestorage 테이블이라 그런지 ransack 적용이 되질 않음 (검색해도 별다른 글을 찾지 못함) 
+- 문제는 거른 데이터가 view에 뜨지가 않음
+- 콘솔에 USE eager loading detected <br>
+  ActiveStorage::Attachment => [:blob] <br>
+  Add to your query: .includes([:blob]) <br>
+  가 뜨는 걸 보니.. activestorage에 대해서는 좀 다른 방법을 써야하는 듯 함
+- 아예 필터링된 attachments 데이터들을 따로 view를 만들어 띄우는 방법을 써봤으나 잘되지 않음
+  
+__________
+  
+
 ### rake
 - unix 에서 소스코드 실행을 위해 프로그램을 빌드할 때 주로 make 라는 도구를 사용함
 - rake 는 ruby버전의 make 
