@@ -1,6 +1,6 @@
 ###  레일즈의 polymorphic association
 - ActiveRecord의 polymorphic association (다형성 관계)
-
+- 하나의 모델이 다른 여러개의 모델과 관계를 갖는 상태 
 
 ```ruby
 class Person < ActiveRecord::Base
@@ -184,3 +184,16 @@ end
 
 > 아래의 글을 정리 <br>
 https://medium.com/@Fred.it/%EB%B2%88%EC%97%AD-%EB%A0%88%EC%9D%BC%EC%A6%88%EC%9D%98-polymorphic-association-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-d13ee23695ab
+<br>
+https://destiny738.tistory.com/545
+
+______
+
+#### Ruby on rails 기본 제공 관계
+- belongs_to : 외래키 관계 설정 
+- has_one : 1:x 관계
+- has_many : n:x 관계 
+- has_many :through [model class] : n:x 관계 설정하면서 model 클래스를 통해 연결된 다른 정보 얻어올 수 있음
+- has_one :through [model class] : 1:x 관계를 설정하면서 model 클래스를 통해 연결된 다른 정보 얻어올 수 있음
+- has_and_belongs_to_many : 직접적으로 n:n 관계 설정 
+
