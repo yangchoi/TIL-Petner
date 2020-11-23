@@ -1,3 +1,15 @@
+### 오늘 한 일 
+- 예쁜 돌봄 사진 마지막페이지에 다음 페이지로 이동하는 화살표 없애기 
+- 한 페이지에 10개의 attachment가 들어가므로 attachment가 10개가 되지 않으면 화살표를 없애는 방법으로 해결 
+
+#### 안되는 일 
+activestorage attachment에 blob join해서 blob의 filename 이 FullSizeRender.jpg 가 되는 attachment 없애기 
+- filename FullSizeRender 가 되는 파일은 파일 업로드 실패한 파일이므로 액박이 뜸 
+
+________
+
+
+
 ###  레일즈의 polymorphic association
 - ActiveRecord의 polymorphic association (다형성 관계)
 - 하나의 모델이 다른 여러개의 모델과 관계를 갖는 상태 
