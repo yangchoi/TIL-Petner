@@ -202,3 +202,31 @@ has_and_belongs_to_many
 - join 모델에서 유효성 검사, 콜백 또는 추가 속성이 필요한 경우 has_many :through 사용 
 
 
+### polymorphic assiciations 
+- 기존 associations 에서 더 나아간 변형 
+- polymorphic associations을 사용하면 모델이 단일 연관에서 둘 이상 다른 모델에 속할 수 있음 
+
+- polymorphic 방식으로 선언하는 방법
+
+```ruby
+class Picture < ApplicationRecord
+  belongs_to :imageable, polymorphic: true
+end
+ 
+class Employee < ApplicationRecord
+  has_many :pictures, as: :imageable
+end
+ 
+class Product < ApplicationRecord
+  has_many :pictures, as: :imageable
+end
+```
+- 위와 같이 선언시 employee model 또는 product model에 picture model 이 속하게 됨 
+
+- polymorphic 에서 belongs_to 선언은 다른 모델이 사용할 수 있는 인터페이스 설정하는 것으로 생각할 수 있음 
+- employee model의 인스턴스에서 @employee.pictures를 통해 employee에 종속된 pictures 들 검색 가능 
+- 역시 @product.pictures 통해서도 데이터 검색 가능 
+
+- picture model의 인스턴스 있는 경우 @picture.imageble을 통해 부모에게 접근 가능
+- 위의 작업을 수행하기 위해선 모델에서 polymorphic 인터페이스를 선언하는 외래키 컬럼과 타입 컬럼 모두 선언해야함 
+
