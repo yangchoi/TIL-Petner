@@ -156,7 +156,7 @@ _____
 ##### ordering
 
 
-### Eager ;padomg asspcoatopms
+### Eager loading associations
 - 가능한 적은 쿼리를 사용해 레코드를 조회하는 메커니즘
 
 1. SQL N+1 problme
