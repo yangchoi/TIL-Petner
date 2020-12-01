@@ -19,6 +19,7 @@ ____
 - 너무 오랫동안 커밋을 안하면 좀 헷갈림
 - glum도 제때 제때 해주자 
 
+https://medium.com/react-native-seoul/git-cherry-pick-%EC%82%AC%EC%9A%A9%EB%B2%95-fe1a3346bd27
 
 _________________
 
