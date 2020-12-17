@@ -33,3 +33,31 @@
  모양이나 작성 등 여러 측면에서 어색한 경우가 많아서 만약 상태기반으로 테스트 할 수 있는 상황이라면 굳이 행위 기반 테스트 케이스는 만들지 않는 것이 좋음 
  
  
+ _______
+ 
+ 
+ 
+ ### FactoryBot 
+ - 테스트 시 매번 테스트용 객체를 만들면 번거롭기 때문에 테스트용 객체를 미리 만들어놓을 수 있게 해주는 라이브러리 
+ 
+ 
+#### validates, presence: true 
+ - 유효성 검사 
+ - presence: 해당 유형이 비어있는지 아닌지 확인 
+ 
+ 
+ ##### 테스트시 값이 갔는지 안갔는지 확인하려면 response 를 확인한다. 
+ 
+```ruby
+pp response.body 
+```
+ 
+ ##### 테스트시 아래와 같이 해당 파일의 테스트 코드만 실행 할 수 있다 
+ ```ruby
+ bundle exec rspec --color spec/features/companion_registration_for_app_spec.rb
+ ```
+ 
+ #### 테스트시 테스트 로그를 아래의 명령으로 확인할 수 있다 
+```ruby
+tail -f log/test.log      
+```
